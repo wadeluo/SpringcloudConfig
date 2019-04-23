@@ -1,4 +1,4 @@
-foo: foo version 999999999999
+foo: foo version 10001
 spring: 
    datasource:
         name: test
@@ -25,17 +25,6 @@ mybatis:
     basepackage: com.lovnx.web.mapper
     xmlLocation: classpath:mapper/**/*.xml
     
-eureka: 
-     instance: 
-         instance-id: ${spring.application.name}:${server.port}
-         prefer-ip-address: true
-         lease-renewal-interval-in-seconds: 10
-         lease-expiration-duration-in-seconds: 10
-     client:
-          registerWithEureka: true
-          fetchRegistry: true 
-          serviceUrl: 
-               defaultZone: http://localhost:8761/eureka/
         
         
 
