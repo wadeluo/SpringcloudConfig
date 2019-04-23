@@ -1,10 +1,10 @@
-foo: foo version 10002
+foo: foo version 10003
 spring: 
    datasource:
         name: test
-        url: jdbc:mysql://192.168.2.235:5630/devops-bussiness?useUnicode=true&characterEncoding=utf8
+        url: jdbc:mysql://localhost:3306/devops-bussiness?useUnicode=true&characterEncoding=utf8
         username: root
-        password: CCpg@2017
+        password: root
         # 使用druid数据源
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
