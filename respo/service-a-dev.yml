@@ -22,7 +22,7 @@ spring:
         poolPreparedStatements: true
         maxOpenPreparedStatements: 20
 mybatis: 
-    basepackage: com.lovnx.web.mapper
+    basepackage: com.lovnx.web.*
     xmlLocation: classpath:mapper/**/*.xml
     
         
