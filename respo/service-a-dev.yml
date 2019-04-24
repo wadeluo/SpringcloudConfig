@@ -1,4 +1,4 @@
-foo: foo version 10006
+foo: foo version 10007
 spring: 
    datasource:
         name: test
