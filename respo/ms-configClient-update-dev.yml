@@ -1,6 +1,5 @@
 foo: foo version 100127
-info: 
-  profile: dev-test-1
+info.profile: dev-test-1
 spring: 
    datasource:
         name: test
